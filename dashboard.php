@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <title>Dashboard</title>
 <link rel="stylesheet" href="dash.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
 <article>
 <h2>Módulo de Usuários</h2>
 <p>Gerencie os acessos e permissões do sistema nesta área.</p>
-<a href="#" class="btn">Acessar</a>
+<a href="usuarios.php" class="btn">Acessar</a>
 </article>
 
 <article>
