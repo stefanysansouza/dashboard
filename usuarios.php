@@ -1,4 +1,13 @@
-<main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+    <main>
     <div class="header-content">
         <h2>Gestão de Usuários</h2>
         <p>Visualize e gerencie as permissões dos usuários do sistema.</p>
@@ -39,3 +48,5 @@
         </table>
     </div>
 </main>
+</body>
+</html>

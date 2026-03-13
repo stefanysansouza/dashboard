@@ -35,7 +35,7 @@
 <article>
 <h2>Módulo de Usuários</h2>
 <p>Gerencie os acessos e permissões do sistema nesta área.</p>
-<a href="#" class="btn">Acessar</a>
+<a href="usuarios.php" class="btn">Acessar</a>
 </article>
 
 <article>
