@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 <meta charset="UTF-8">
 <title>Dashboard</title>
-<link rel="stylesheet" href="dash.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/dash.css">
+<link rel="stylesheet" href="css/tabela.css">
 </head>
 
 <body>
@@ -13,52 +12,69 @@
 <div class="dashboard-container">
 
 <nav>
+<h2>Painel</h2>
 
 <ul>
-<li><a href="#">Início</a></li>
-<li><a href="#">Projetos</a></li>
-<li><a href="#">Relatórios</a></li>
-<li><a href="#">Configurações</a></li>
+<li><a href="index.html">Início</a></li>
+<li><a href="relatorios.html">Relatórios</a></li>
+<li><a href="usuarios.html">Usuários</a></li>
+<li><a href="configuracoes.html">Configurações</a></li>
 </ul>
-
-<div class="perfil-usuario">
-<img src="https://ui-avatars.com/api/?name=Stefany+Souza&background=008080&color=fff">
-<span>Stefany Souza</span>
-</div>
 
 </nav>
 
 <main>
 
+<h1>Dashboard</h1>
+
 <section class="container-cards">
 
 <article>
-<h2>Módulo de Usuários</h2>
-<p>Gerencie os acessos e permissões do sistema nesta área.</p>
-<a href="usuarios.php" class="btn">Acessar</a>
+<h2>Usuários</h2>
+<p>120 cadastrados</p>
+<a href="usuarios.html" class="btn">Acessar</a>
 </article>
 
 <article>
-<h2>Relatórios de Vendas</h2>
-<p>Acompanhe os gráficos de desempenho deste mês.</p>
-<a href="#" class="btn">Acessar</a>
+<h2>Relatórios</h2>
+<p>Dados atualizados</p>
+<a href="relatorios.html" class="btn">Ver</a>
 </article>
 
 <article>
-<h2>Configurações do Servidor</h2>
-<p>Ajuste as portas do sistema e o banco de dados.</p>
-<a href="#" class="btn">Acessar</a>
+<h2>Configurações</h2>
+<p>Ajustes do sistema</p>
+<a href="configuracoes.html" class="btn">Abrir</a>
 </article>
+
+</section>
+
+<section class="table-responsive">
+
+<h2>Atividades</h2>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Ação</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Ana</td><td>Login</td><td>27/03</td></tr>
+<tr><td>Carlos</td><td>Cadastro</td><td>26/03</td></tr>
+<tr><td>Julia</td><td>Update</td><td>25/03</td></tr>
+</tbody>
+
+</table>
 
 </section>
 
 </main>
 
 </div>
-
-<footer>
-<p>© - Desenvolvido na aula de Web I</p>
-</footer>
 
 </body>
 </html>
